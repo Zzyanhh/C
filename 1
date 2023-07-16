@@ -1,0 +1,52 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>   //standard input output
+
+int main()   //主函数，程序入口，只能有一个
+{
+	printf("one\n");
+
+	char ch = 'A';
+	printf("%c\n", ch);   //%c-打印字符格式的数据
+
+	int age = 21;
+	printf("%d\n", age);
+
+	float f1 = 5.0;
+	printf("%f\n", f1);
+
+	double d1 = 3.14;
+	printf("%lf\n", d1);
+
+	int a = sizeof(int);
+	printf("%d\n",a);
+	int b = sizeof(short);
+	printf("%d\n",b);
+	int c = sizeof(long);
+	printf("%d\n",c);
+	int d = sizeof(long long);
+	printf("%d\n",d);
+	int e = sizeof(char);
+	printf("%d\n",e);
+	int f = sizeof(float);
+	printf("%d\n",f);
+	int g = sizeof(double);
+	printf("%d\n",g);
+
+	float weight = 95.6f;   //默认双精度，后加f
+
+	//scanf-输入函数，&-取地址符号
+	int num1 = 0;
+	int num2 = 0;
+	int num = 0;
+	scanf("%d%d", &num1, &num2);
+	num = num1 + num2;
+	printf("sum = %d\n", num);
+	return 0;
+}
+
+//数据类型：char   short   int   long   long long   float   double
+//单位：bit   byte   kb   mb   gb   tb   pb   1字节8比特位，后面都是1024   2^n
+//定义在代码块{ }的变量为全局，内部为局部，名称相同局部优先
+//作用域：变量可用范围，局部 所在代码块内，全局 整个工程
+//extern-声明外部符号
+//生命周期：局部 作用域范围，全局 整个工程
