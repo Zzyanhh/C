@@ -1,0 +1,110 @@
+///////////////////////////////////////////////////////////////////////////////
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+#include <string.h>
+#define m 10
+enum sex
+{
+	male,
+	female,
+	secret
+};
+int Add(int x, int y)
+{
+	int s = x + y;
+	return s;
+}
+int main()
+{
+	const int n = 10;
+	int arr[m] = { 0 };
+	sex v = secret;
+	printf("%d\n", v);
+	printf("%d\n", male);   //0
+	printf("%d\n", female);   //1
+	printf("%d\n", secret);   //2
+
+	char arr1[] = "abc";
+	char arr2[] = { 'a','b','c',0 };
+	printf("%d\n", strlen(arr1));
+	printf("%d\n", strlen(arr2));
+
+	printf("%c\n", '\'');
+	printf("%c\n", '\32');
+	printf("%c\n", '\x61');
+
+	int f;
+	printf("就这样吗？ ");
+	scanf("%d", &f);
+	if (f == 1)
+	{
+		printf("那就这样吧");
+	}
+	else
+	{
+		printf("继续干吧");
+	}
+
+	int l = 0;
+	while (l < 20000)
+	{
+		printf("已经敲了%d行代码\n", l);
+		l++;
+	}
+	printf("offer\n");
+
+	int d = 60;
+	int u = 51;
+	int j = Add(d, u);
+	printf("%d", j);
+
+	int i = 0;
+	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	while (i < 10)
+	{
+		printf("%d\n", arr[i]);
+		i++;
+	}
+
+	int a = 1;
+	int b = a << 2;
+	int c = a >> 1;
+	printf("%d\n", b);
+	printf("%d", c);
+
+	int a = 3;   //011
+	int b = 5;   //101
+	printf("%d\n", a & b);
+	printf("%d\n", a | b);
+	printf("%d\n", a ^ b);
+
+	int a = 10;
+	printf("%d\n", a + 10);
+	a += 10;
+	printf("%d\n", a);
+
+	int arr[10] = { 0 };
+	int s = sizeof(arr)/sizeof(arr[0]);
+	printf("%d\n", sizeof(arr));
+	printf("%d\n",s);
+	
+
+
+
+
+
+	return 0;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//字面常量，const修饰的常变量，#define定义的标识符常量，enum=-枚举常量
+//'\0'-字符串的结束标志
+//A-65 a-97 差32,0-48
+//转义字符：\，\t 水平制表符，\v 垂直制表符，\n 换行
+// \ddd 八进制转十进制转ASCII码对应字符，\xdd 十六进制转十进制转ASCII码对应字符
+//注释：// , /*  */
+//循环：while , for , do...while
+//操作符：% 取模 ，<<  >> 移位符, & 与，| 或，^ 异或
+// ! 逻辑反，0为假，其他真
