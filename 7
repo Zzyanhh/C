@@ -1,0 +1,132 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <string.h>
+//#include <math.h>
+//void fc(int a, int b)   //求最大公约数，辗转相除法
+//{
+//	int c;
+//	while (1)
+//	{
+//		if (a > b)
+//		{
+//			c = a % b;
+//			if (c == 0)
+//			{
+//				printf("%d", b);
+//				break;
+//			}
+//			else
+//			{
+//				b = c;
+//			}
+//		}
+//		else if (a < b)
+//		{
+//			c = b % a;
+//			if (c == 0)
+//			{
+//				printf("%d", a);
+//				break;
+//			}
+//			else
+//			{
+//				a = c;
+//			}
+//		}
+//		else if (a == b)
+//		{
+//			printf("1");
+//			break;
+//		}
+//	}
+//}
+
+//int main()
+//{
+	//求公约数
+	//int a = 24;
+	//int b = 18;
+	/*int c = 0;*/
+	/*scanf("%d%d", &a, &b);*/
+	//fc(a, b);
+	//if (a < b) {
+	//	c = a;
+	//	a = b;
+	//	b = c;
+	//}
+	//int d = 0;
+	//while (a % b)
+	//{
+	//	d = a % b;
+	//	a = b;
+	//	b = d;
+	//}
+	//printf("%d", b);
+
+	//求闰年
+	//int c = 0;
+	//for (int y = 1000; y <= 2000; y++)
+	//{
+	//	if (((y % 4 == 0) && (y % 100 != 0)) || (y % 400 == 0))
+	//	{
+	//		printf("%d\n", y);
+	//		c++;
+	//	}
+	//}
+	//printf("%d", c);
+
+	//求素数
+	//int a, b, c;
+	//int d = 0;
+	//scanf("%d%d", &a, &b);
+	//for (a; a <= b; a++)
+	//{
+	//	if (a <= 3)
+	//	{
+	//		printf("%d", a);
+	//	}
+	//	else
+	//	{
+	//		
+	//		c = sqrt(a);     //a / 2;
+	//		int x;
+	//		for (x = 2; x <= c; x++)
+	//		{
+	//			if (a % x == 0)
+	//			{
+	//				break;
+	//			}
+
+	//			//while (a % x != 0)
+	//			//{
+	//			//	x++;
+	//			//}
+	//		}
+	//		if (x == c + 1)
+	//		{
+	//			printf("%d\n", a);
+	//			d++;
+	//		}	
+	//	}
+	//}
+	//printf("%d", d);
+
+	//打印乘法口诀表
+//	int a, b,c;
+//	for (a = 1; a <= 9;a++)
+//	{
+//		b = 1;
+//		while (b <= a)
+//		{
+//			//if(a*b<10)
+//			//	printf("%d*%d=%d    ", b, a, a * b);
+//			//else
+//			//	printf("%d*%d=%d   ", b, a, a * b);
+//			printf("%d*%d=%-2d  ", b, a, a * b);   //-2d左对齐，2d右对齐
+//			b++;
+//		}
+//		printf("\n");
+//	}
+//	
+//	return 0;
+//}
