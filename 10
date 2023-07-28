@@ -1,0 +1,66 @@
+//函数头文件：
+/*	#ifndef __ADD_H__
+	#define __ADD_H__
+
+	函数声明
+
+	#endif   */
+
+//栈区：局部变量、函数形参
+//堆区：动态开辟的内存、malloc、calloc
+//静态区：全局变量、static修饰的变量
+
+
+
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+
+//void print(int x)
+//{
+//	if (x >= 10)
+//	{
+//		print(x / 10);
+//	}
+//	printf("%d ", x%10);
+//
+//}
+
+//int sl(char* g)
+//{
+//	int c = 0;
+//	while (*g != '\0')
+//	{
+//		c++;
+//		g++;
+//	}
+//	return c;
+//}
+
+//int sl(char* g)
+//{
+	//int c = 0;
+	//while (*g != '\0')
+	//{
+	//	sl(g++);
+	//	c++;
+	//}
+	//return c;
+	//if (*g != '\0')
+	//	return 1 + sl(g+1);
+	//else
+	//	return 0;
+//}
+//int main()
+//{
+	//printf("hehe");
+	//main();   //递归，函数自身调用,有限制条件，每次递归接近
+
+	//unsigned int n;
+	//scanf("%d", &n);
+	//print(n);
+
+//	char arr[] = "hellow";
+//	int k = sl(arr);
+//	printf("%d", k);
+//	return 0;
+//}
