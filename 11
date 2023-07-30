@@ -1,0 +1,67 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+
+//递归求阶乘
+//int mul(int n)
+//{
+//	if (n == 1)
+//	{
+//		return 1;
+//	}
+//	else
+//	{
+//		return n * mul(n - 1);
+//	}
+//}
+
+//递归求斐波那契数列
+//int fib(int n)
+//{
+//	if (n <= 2)
+//	{
+//		return 1;
+//	}
+//	else
+//	{
+//		return fib(n-1)+fib(n-2);
+//	}
+//}
+
+//循环求斐波那契数列
+//int fib(int n)
+//{
+//	if (n <= 2)
+//	{
+//		return 1;
+//	}
+//	else
+//	{
+//		int a = 1;
+//		int b = 1;
+//		int k;
+//		for (int c = 1; c <= n - 2; c++)
+//		{
+//			k = a + b;
+//			a = b;
+//			b = k;
+//		}
+//		return b;
+//	}
+//}
+//
+//int main()
+//{
+	//int x;
+	//scanf("%d", &x);
+	//int y = mul(x);
+	//printf("%d的阶乘结果为%d", x, y);
+
+	//int x;
+	//scanf("%d", &x);
+//	for (x = 1; x <= 100; x++) {
+//		int y = fib(x);
+//		printf("第%d个斐波那契数为%d\n", x, y);
+//	}
+//	return 0;
+//}
+//递归可能存在栈溢出
