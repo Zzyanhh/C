@@ -1,0 +1,110 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include "c13.h"
+//
+//void menu()
+//{
+//	printf("三子棋游戏\n");
+//	printf("##############################\n");
+//	printf("##     1.play     0.exit    ##\n");
+//	printf("##############################\n");
+//
+//}
+//
+//void game()
+//{
+//	char ew[row][col] = {0};
+//	int j;
+//	int l = 1;
+//	initiateboard(ew,row,col);
+//	printboard(ew, row, col);
+//	do
+//	{
+//		player(ew);
+//		j = judge(ew);
+//		if (j == '*') {
+//			printf("玩家赢！\n");
+//			//menu();
+//			break;
+//		}
+//		else if (j == '#') {
+//			printf("电脑赢！\n");
+//			//menu();
+//			break;
+//		}
+//		else if (j == 'p') {
+//			printf("平局！\n");
+//			//menu();
+//			break;
+//		}
+//		computer(ew);
+//		j = judge(ew);
+//		if (j == '*') {
+//			printf("玩家赢！\n");
+//			//menu();
+//			break;
+//		}
+//		else if (j == '#') {
+//			printf("电脑赢！\n");
+//			//menu();
+//			break;
+//		}
+//		else if (j == 'p') {
+//			printf("平局！\n");
+//			//menu();
+//			break;
+//		}
+//		printboard(ew, row, col);
+//		//j = judge(ew);
+//		//if (j == '*') {
+//		//	printf("玩家赢！\n");
+//		//	//menu();
+//		//	break;
+//		//}
+//		//else if (j == '#') {
+//		//	printf("电脑赢！\n");
+//		//	//menu();
+//		//	break;
+//		//}
+//		//else if (j == 'p') {
+//		//	printf("平局！\n");
+//		//	//menu();
+//		//	break;
+//		//}
+//	} while(l);
+//	
+//}
+//
+//void cheesse()
+//{
+//	menu();
+//	printf("请选择>: ");
+//	int e;
+//	srand((unsigned int)time(NULL));
+//	do
+//	{
+//		scanf("%d", &e);
+//		switch (e)
+//		{
+//		case 1:
+//			printf("游戏开始\n");
+//			game();
+//			e = 0;
+//			break;
+//		case 0:
+//			printf("退出游戏\n");
+//			break;
+//		default:
+//			printf("输入错误，请重新选择>: ");
+//			break;
+//		}
+//	} while (e);
+//}
+//
+//
+//
+//
+//int main()
+//{
+//	cheesse();
+//	return 0;
+//}
