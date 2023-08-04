@@ -1,0 +1,12 @@
+//#pragma once
+//#include <stdio.h>
+//#include <stdlib.h>
+//#include <time.h>
+//#define row 3
+//#define col 3
+//
+//void printboard(char arr[row][col], int x, int y);
+//void initiateboard(char arr[row][col], int x, int y);
+//void player(char arr[row][col]);
+//void computer(char arr[row][col]);
+//char judge(char arr[row][col]);
