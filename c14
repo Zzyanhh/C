@@ -1,0 +1,24 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include "c14.h"
+//int main()
+//{
+//	int select;
+//	menu();
+//	printf("请选择>: ");
+//	do
+//	{
+//		scanf("%d", &select);
+//		switch (select)
+//		{
+//			case 1:
+//				game();
+//				break;
+//			case 0:
+//				printf("退出游戏\n");
+//				break;
+//			default:
+//				printf("输入错误，请重新输入>: ");
+//		}
+//	} while (select);
+//	return 0;
+//}
