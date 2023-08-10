@@ -1,0 +1,76 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#define nv 5
+
+//int latr(char str[])
+//{
+//	char* start = str;
+//	char* end = str;
+//	while (*end != '\0')
+//	{
+//		end++;
+//	}
+//	return end - start;
+//}
+
+//int main()
+//{
+	//int a = 10;
+	//int* p = &a;
+	//p = NULL;
+	//*p = 20;
+	//if (p != NULL)
+	//{
+	//	*p = 20;
+	//}
+
+	//int arr[10] = { 1,3,5,7,9,2,4,6,8,10 };
+	//int sz = sizeof(arr) / sizeof(arr[0]);
+	//int* p = arr;
+	//for (int i = 0; i < sz; i++)
+	//{
+	//	printf("%d ", *p);
+	//	p = p + 1;
+	//}
+
+	//float value[nv];
+	//float* vp;
+	//for (vp = &value[0]; vp < &value[nv])
+	//{
+	//	*vp++ = 0;
+	//}
+
+	//int arr[10] = { 1,3,5,7,9,2,4,6,8,10 };
+	///*printf("%d ", &arr[9] - &arr[0]);*/   //9，数组地址相减得到元素个数
+	//int sz = sizeof(arr) / sizeof(arr[0]);
+	//for (int* p = &arr[sz]; p > &arr[0];) 
+	//{
+	//	*--p = 0;
+	//}
+	//for (int i = 0; i < sz; i++)
+	//{
+	//	printf("%d ", arr[i]);
+	//}
+
+	//int arr[10] = { 0 };
+	//printf("%p\n", arr);   //首元素地址
+	//printf("%p\n", arr+1);
+	//printf("%p\n", &arr[0]);   //首元素地址
+	//printf("%p\n", &arr[0]+1);
+	//printf("%p\n", &arr);   //整个数组的地址
+	//printf("%p\n", &arr+1);
+
+	//int a = 10;
+	//int* pa = &a;
+	//int** ppa = &pa;   //二级指针，以此类推，int*** pppa = &ppa;  最后一个 * 表示指针，前面int **...表示指向对象的类型
+	//**ppa = 20;
+	//printf("%d\n", **ppa);
+	//printf("%d\n",a);
+	
+	//int a = 10;
+	//int b = 20;
+	//int c = 30;
+	//int* pp[10] = { &a,& b,&c };
+
+//	return 0;
+//}
