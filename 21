@@ -1,0 +1,99 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include <stdio.h>
+//#include <assert.h>
+
+//double xn(int x,int n)   //x的y次方
+//{
+//	if (n == 0)
+//		return 1;
+//	else if (n > 0)
+//		return x * xn(x, n - 1);
+//	else
+//		return (1 / (xn(x, -n)));
+//}
+
+//struct stu
+//{
+//	char name[10];
+//	int age;
+//}s1,s2;   //全局变量
+
+//struct stu
+//{
+//	char name[10]; 
+//	char sex[5];
+//	char tele[15];
+//	int age;
+//};
+
+//void print1(stu x)
+//{
+//	printf("name:%s\n", x.name);
+//	printf("sex:%s\n", x.sex);
+//	printf("tele:%s\n", x.tele);
+//	printf("age:%d\n", x.age);
+//}
+
+//void print2(stu* x)   //省空间
+//{
+//	printf("name:%s\n", x->name);
+//	printf("sex:%s\n", x->sex);
+//	printf("tele:%s\n", x->tele);
+//	printf("age:%d\n", x->age);
+//}
+
+//char* my_strcpy(char* des, const char* src)
+//{
+	//if (des != NULL && src != NULL)
+	//{
+	//	while (*des = *src)
+	//	{
+	//		;
+	//	}
+	//}
+
+//	char* ret = des;
+//	assert(des != NULL);   //assert括号内语句为假则报错
+//	assert(src != NULL);
+//	while (*des++ = *src++)
+//	{
+//		;
+//	}
+//	return ret;
+//}
+
+//int main()
+//{
+	//int n,k;
+	//scanf("%d %d", &n,&k);
+	//printf("%lf", xn(n, k));
+
+	//stu s;   //局部变量
+	//stu s = { "张三","男","13500220908",20 };
+	//print1(s);
+	//print2(&s);
+
+	//char arr1[] = "super";
+	//char arr2[] = "tobe";
+	//printf("%s\n", my_strcpy(arr1, arr2));
+
+	//const int n = 10;
+	//int a = 5;
+	//const int* p = &n;   //const在*左边，修饰的是*p
+	//int* const p = &a;   //const在*右边，修饰的是p
+//	return 0;
+//}
+
+//结构体包含结构体可用 {1,2,{1.1,1.2},3}初始化   t.s.name
+// 栈区：局部变量，函数形参，函数调用开辟的空间
+// 堆区：动态内存分配，malloc/free，realloc，calloc
+// 静态区：全局变量，静态变量
+//函数调用传递参数是从右往左，函数调用需要压栈
+//压栈：放入元素   出栈：删除元素
+//debug/调试版本，包含调试信息，可调试程序
+//release/发布版本，经过了优化
+//F9：设置断点   F5：开始调试   F10：逐过程   F11：逐语句，可进入函数内部    可配合使用
+//shift+F5,11   功能基本反过来
+//断点可设置条件
+//栈区：默认先使用高地址的空间，再使用低地址的空间
+//数组随着下标的增长，地址由低到高
